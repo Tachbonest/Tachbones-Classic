@@ -27,13 +27,13 @@ window.TACH_CONFIG = {
 
   // 'local'    = orders are saved in the browser only (good for testing / demo)
   // 'firebase' = orders from ALL customers arrive in your admin page (needs the free Firebase setup in README.md)
-  provider: 'local',
+  provider: 'firebase',
 
   // Fill this in only when provider is 'firebase' (see README.md, Step 3)
   firebase: {
-    apiKey: '',
-    authDomain: '',
-    projectId: '',
-    appId: ''
+    apiKey: 'AIzaSyDxHbuztAjpi4jnmBy1BtJ2-hywTyNiJ-o',
+    authDomain: 'tachbonest-29665.firebaseapp.com',
+    projectId: 'tachbonest-29665',
+    appId: '1:649460107799:web:f123801e16257367e3aa52'
   }
 };
